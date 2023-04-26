@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+body{
+    font-family:  "ヒラギノ角ゴ ProN W3", 
+                  HiraKakuProN-W3, 游ゴシック, "Yu Gothic",
+                   メイリオ, Meiryo, Verdana, Helvetica,
+                    Arial, sans-serif;
+    margin-left: 30px;   
+    margin: 0;
+    padding: 0;            
+}
+
+/* header */
+
+
+.img{
+    width: 200px;
+    margin-left: 20px;
+    
+}
+header ul{
+    
+    float: left;
+    width: 97%;
+    background-color: black;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+header ul li{
+    float: left;
+    background-color: black;
+    line-height: 60px;
+    margin-right: 20px;
+    line-height: 3;
+ 
+     
+}
+/* left */
+
+.left{
+    float: left;
+    width:70%;
+    height:1600px;
+    border-right:  5px solid blue;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+
+}
+h1{
+    border-bottom: 4px solid grey;
+    border-left: 3px solid #000;
+    margin-left: 5px;
+    margin-top: -5px;
+    font-size: 30px;
+   }
+
+/* form  */
+h3{
+    margin: 0out;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left: 4px solid red;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 500px;
+    font-size: 15px;
+}
+
+form, .kizi{
+    
+    margin: 0outo;
+    margin-left: 30px;
+    background-color: #fbfbfb;
+    border: 3px solid #ebebeb;
+    border-radius: 10px;
+    width: 1200px;
+}
+h4{
+    border-bottom: 2px solid #ebebeb;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.kizi > p {
+    margin-left: 10px;
+}
+.kizi{
+    margin-top: 10px;
+}
+.kizikona{
+    margin-top: 20px;
+}
+
+.by{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+form div{
+    padding: 15px;
+}
+.text, textarea, .dropdown{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff; 
+
+}
+
+    
+.submit{
+    border: 1px solid lightgray; 
+    padding: 4px 10px;
+    color: white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: 2px solid grey;
+}
+
+
+/* right */
+
+
+.right{
+    width: 29%;
+    float: left;
+    height: 1600px;
+    margin-left:20px;
+    margin-left: 2px;
+    border-left:  5px solid red;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+
+}
+
+
+.right-nikkititle{
+    border-bottom: 3px solid lightgray;
+    font-size: 20px;
+    width: 230px;
+
+}
+.right-nikkititle-list{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    width: 99%;
+    margin-top: 10px;
+    clear: both;
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 5px;
+    font-size: 30px;
+
+}
